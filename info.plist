@@ -63,10 +63,16 @@
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>sayslow</string>
+				<key>runningsubtext</key>
+				<string>Loading voices ...</string>
 				<key>script</key>
 				<string>$query = "{query}"
 $pitchAndRate = "[[pbas 2;rate 8]]"
 require 'say'</string>
+				<key>subtext</key>
+				<string>Use the Mac OS text-to-voice system to SLOWLY say what you want.</string>
+				<key>title</key>
+				<string>Say Something Slowly</string>
 				<key>type</key>
 				<integer>2</integer>
 				<key>withspace</key>
@@ -92,7 +98,7 @@ require 'say'</string>
 				<string>$query = "{query}"
 require 'say'</string>
 				<key>subtext</key>
-				<string>Start your statement with a period to say it slowly.</string>
+				<string>Use the Mac OS text-to-voice system to say what you want.</string>
 				<key>title</key>
 				<string>Say Something</string>
 				<key>type</key>
@@ -113,12 +119,12 @@ require 'say'</string>
 		<key>3714502D-25A8-4BD1-8B6F-4746104256CB</key>
 		<dict>
 			<key>ypos</key>
-			<real>240</real>
+			<real>250</real>
 		</dict>
 		<key>4DFF176C-0D11-4D61-AEB0-F2F1586FDB79</key>
 		<dict>
 			<key>ypos</key>
-			<real>390</real>
+			<real>380</real>
 		</dict>
 		<key>D9F4A5D1-1E38-4A1C-8109-DF9B40A556C1</key>
 		<dict>
